@@ -15,22 +15,28 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     life: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
+      validate: { min: 1, max: 255 },
     },
     attack: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
+      validate: { min: 1, max: 255 },
     },
     defending: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
+      validate: { min: 1, max: 255 },
     },
     speed: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
+      validate: { min: 1, max: 255 },
     },
     height: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
+      validate: { min: 1, max: 255 },
     },
     weight: {
-      type: DataTypes.STRING,
+      type: DataTypes.INTEGER,
+      validate: { min: 1, max: 255 },
     },
     sprite: {
       type: DataTypes.STRING,

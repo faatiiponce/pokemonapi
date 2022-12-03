@@ -1,0 +1,15 @@
+.message {
+  position: relative;
+  top: -130px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  display: flex;
+}

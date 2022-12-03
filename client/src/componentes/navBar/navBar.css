@@ -1,0 +1,44 @@
+.navBar {
+  position: sticky;
+  top: 0;
+  background-color: #e52521;
+  z-index: 100;
+  display: block;
+  text-align: center;
+  padding: 4px 4px;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.imagen {
+  width: 500px;
+  height: 175px;
+  left: -50;
+}
+
+.button-create {
+  text-decoration: none;
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background: #ffde00;
+  border: 5px solid #3367b0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 12px 16px;
+  text-overflow: ellipsis;
+  transition: all 0.14s ease-out;
+  white-space: nowrap;
+  margin-right: 5px;
+}

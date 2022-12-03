@@ -1,0 +1,57 @@
+.container-inicial {
+  background-image: url("../../access/Img/18z8e43dp0082gif.gif");
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-color: #520730;
+}
+
+.container-secundario {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -305px 0 0 -205px;
+}
+
+.text1 {
+  color: #003566;
+  position: left;
+  margin: left;
+  font-size: 3rem;
+}
+
+.text2 {
+  color: #003566;
+  position: left;
+  margin: left;
+  font-size: 1.5rem;
+}
+
+.btnInitial {
+  border-radius: 9999px;
+  font-family: bold;
+  width: 9rem;
+  height: 3rem;
+  font-size: 23px;
+  position: fixed;
+  top: 33vh;
+  right: 101vh;
+  background-color: #061f3a9a;
+  color: #ffc300;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(1, 1, 8, 0.254);
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.45s;
+}
+
+.btnInitial:hover {
+  background: #ffc300;
+  color: #061f3a;
+  border-color: #ffc300;
+  transition: background-color 0.45s;
+}
