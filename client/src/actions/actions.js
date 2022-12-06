@@ -66,14 +66,11 @@ export const getPokemonName = (name) => {
   };
 };
 
-export const addPokemon = (payload) => {
-  //transformo pokemon creado en el objeto que la DB necesita
-  return async function (dispatch) {
-    const pokemon = await axios.post("http://localhost:3001/pokemons", payload);
-
-    return {
-      type: "POST_POKEMON",
-      payload: pokemon,
-    };
+export function addPokemon(payload) {
+  console.log(payload);
+  return async function () {
+    let jsoon = await axios.post("http://localhost:3001/pokemons", payload);
+    console.log(payload);
+    return jsoon;
   };
-};
+}

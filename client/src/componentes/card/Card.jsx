@@ -8,7 +8,7 @@ export default function Card({ id, name, img, types }) {
     <div>
       <div className="card">
         <div className="face front">
-          <div className={types[0].name}>
+          <div className={types[0]?.name}>
             {img !== true ? (
               <img src={img} alt="image" />
             ) : (
@@ -25,8 +25,8 @@ export default function Card({ id, name, img, types }) {
             <h1>{name}</h1>
             <h2>Type</h2>
             <div className="img-types">
-              {types.map((type) => {
-                return <img src={imgType[type.name]} />;
+              {types?.map((type) => {
+                return <img src={imgType[type?.name]} />;
               })}
             </div>
             <Link to={"/detail:" + id}>

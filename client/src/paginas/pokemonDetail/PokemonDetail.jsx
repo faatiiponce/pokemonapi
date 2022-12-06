@@ -15,13 +15,17 @@ export default function PokemonDetail() {
     dispatch(getPokemonDetail(id.slice(1, id.length)));
   }, [dispatch]);
 
+  useEffect(() => {
+    console.log(pokemonDetail);
+  }, [pokemonDetail]);
+
   const { sprite, life, types, name, height, attack, defense, speed, weight } =
     pokemonDetail;
 
-  const truncateString = (str, num) => {
-    if (str.length <= num) return str;
-    return str.slice(0, num) + "...";
-  };
+  // const truncateString = (str, num) => {
+  //   if (str.length <= num) return str;
+  //   return str.slice(0, num) + "...";
+  // };
 
   return (
     <div className="container-pokemon-detail">
@@ -36,7 +40,7 @@ export default function PokemonDetail() {
         </Link>
       </div>
 
-      {sprite &&
+      {/* {sprite &&
       life &&
       types &&
       name &&
@@ -44,7 +48,8 @@ export default function PokemonDetail() {
       attack &&
       defense &&
       speed &&
-      weight ? (
+        weight */}
+      {Object.values(pokemonDetail).length ? (
         <Details
           name={name}
           sprite={sprite}
