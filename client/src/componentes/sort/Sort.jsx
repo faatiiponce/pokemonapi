@@ -66,7 +66,7 @@ export default function Sort({ pokeCurrent, setPokeCurrent, totalPoke }) {
           onChange={filterAndOrderBy}
           value={event}
         >
-          <option>Filter/Order by</option>
+          <option>Filtrar/Ordenar by</option>
           <option className="capitalizeText" value="asc">
             A to Z
           </option>

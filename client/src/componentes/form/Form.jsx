@@ -50,12 +50,12 @@ export default function Form() {
     <div className="form-container">
       <div className="create-container">
         <div className="detailCard">
-          <img
+          {/* <img
             height={"50px"}
             src="https://static.thenounproject.com/png/594337-200.png"
             alt=""
-          />
-          <h2 className="title">Create your favorite Pokemon</h2>
+          /> */}
+          <h2 className="title">Crea tu propio Pokemon</h2>
         </div>
 
         <div className="pokemonData">
@@ -223,7 +223,7 @@ export default function Form() {
                 name="create"
               >
                 {" "}
-                Create{" "}
+                Crear{" "}
               </button>
             </div>
           </form>
@@ -231,7 +231,7 @@ export default function Form() {
       </div>
       <img
         className="red-img"
-        src="https://i.pinimg.com/originals/51/c2/54/51c25482d801d6ff7f80deee727e13c6.png"
+        src="https://www.pngmart.com/files/12/Ash-Ketchum-PNG-Photos.png"
         alt=""
       />
 

@@ -1,73 +1,73 @@
 .fighting {
-  background-color: #c03028;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .normal {
-  background-color: #a8a878;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .flying {
-  background-color: #a890f0;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .poison {
-  background-color: #a040a0;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .ground {
-  background-color: #e0c068;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .rock {
-  background-color: #b8a038;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .bug {
-  background-color: #a8b820;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .ghost {
-  background-color: #705898;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .steel {
-  background-color: #b8b8d0;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .fire {
-  background-color: #ee8328;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .water {
-  background-color: #6890f0;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .electric {
-  background-color: #f8d030;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .psychic {
-  background-color: #f85888;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .ice {
-  background-color: #98d8d8;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .dragon {
-  background-color: #7038f8;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .dark {
-  background-color: #705848;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .grass {
-  background-color: #78c850;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .fairy {
-  background-color: #ffb7fa;
+  background-image: url("../../access/Img/HD-wallpaper-pokeboll-cartoon-pokebola-pokemon.jpg");
 }
 
 .card {
@@ -114,7 +114,7 @@
 
 .card .back {
   transform: perspective(600px) rotateY(180deg);
-  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f22394df-9a75-4771-8225-ea50370155c7/d4mh7q5-25a47434-05e7-413b-9934-7c555ab034e8.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YyMjM5NGRmLTlhNzUtNDc3MS04MjI1LWVhNTAzNzAxNTVjN1wvZDRtaDdxNS0yNWE0NzQzNC0wNWU3LTQxM2ItOTkzNC03YzU1NWFiMDM0ZTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.o5MBcxD2GF6ZtvOpSmq2UBuRQ7wTjHLNgYN2f8AOyUU");
+  background-image: url("https://cdn.wallpapersafari.com/31/99/VWh3CL.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -130,9 +130,15 @@
   color: #000;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 55%;
   margin: -25px 0 0 -25px;
 }
+
+.card .back .type-container h1 {
+  top: 3%;
+  left: 45%;
+}
+
 .card .back .type-container .img-types img {
   height: 50px;
 }
@@ -155,4 +161,8 @@
 
 .card:hover .back {
   transform: perspective(600px) rotateY(360deg);
+}
+
+.name {
+  top: 18%;
 }

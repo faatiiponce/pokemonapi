@@ -31,7 +31,7 @@ export default function Search({ setPokeCurrent }) {
       />
       <button className="search-button" type="button" onClick={handleClick}>
         <img
-          src="https://www.pngmart.com/files/12/Pokemon-Detective-Pikachu-Movie-PNG-HD.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/770px-Pok%C3%A9_Ball_icon.svg.png"
           alt=""
         />
       </button>

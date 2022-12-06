@@ -1,5 +1,5 @@
 .navBar {
-  position: sticky;
+  /*position: sticky;*/
   top: 0;
   background-color: #e52521;
   z-index: 100;
@@ -15,9 +15,9 @@
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .imagen {
-  width: 500px;
-  height: 175px;
-  left: -50;
+  width: 300px;
+  height: 105px;
+  left: -90;
 }
 
 .button-create {

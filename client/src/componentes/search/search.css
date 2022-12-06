@@ -20,8 +20,8 @@
   margin-left: 10px;
   border-radius: 100%;
   border: none;
-  background: #5179b1a4;
-  box-shadow: 0 0 4px 1px rgb(0 0 0 / 25%);
+  background: #f8f8f8a4;
+  box-shadow: 0 0 4px 1px rgba(255, 255, 255, 0.25);
   cursor: pointer;
 }
 .search-button img {

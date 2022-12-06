@@ -7,7 +7,7 @@ export default function Loading() {
       <img
         className="img-loading"
         height={200}
-        src="https://cdn.dribbble.com/users/470545/screenshots/2842684/cut-loop.gif"
+        src="https://cullenk.github.io/Pokemon-Card-Matching-Game/img/charmander-loading.gif"
         alt=""
       />
     </div>
